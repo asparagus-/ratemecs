@@ -1,0 +1,68 @@
+body {
+    background-color: #223A8C;
+    font-family: "Sans", serif;
+}
+
+
+h1 {
+	color : #000B33;
+}
+
+.main{
+	width: 400px;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#loginbox {
+	background-color: #A7B0D1;
+	width: 100%;
+	height: auto;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: #A7B0D1;
+}
+
+
+.username {
+	margin-top: 10px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.password {
+	margin-top: 10px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#login {
+	height: 35px;
+	width: 20%;
+	margin-top: 20px;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-bottom: 5px;
+}
+
+.newaccount {
+	font-size: 12px;
+	width: 50%;
+	margin-top: 12px;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+}
+
+span {
+	color: red;
+	font-size: 12px;
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+}
