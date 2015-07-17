@@ -14,7 +14,7 @@
 
 	if(isset($_GET['username']) && isset($_GET['password']))
 	{
-		$mysqli = new mysqli("localhost", "root", "ielowutil", "ratemycs");
+		$mysqli = new mysqli("localhost", "admin", "password", "ratemycs");
 		if (mysqli_connect_errno()) {
 		    printf("Sorry no cake today: %s\n", mysqli_connect_error());
 		    exit();
